@@ -34,12 +34,22 @@ cp    : Copy to a new file (base file still exists)
 mv    : Move to new location or change file's name
 
 #Searching
-
 find  : search location of file by name, size, date
 	# find . -name "*.cpp" (Search all file C++ in current folder)
 
 grep  : search in file
 	# grep "int main" main.cpp (Find line which has "int main" in file main.cpp)
+	
+		SYSTEM ADMIN
+sudo  : run with the highest permission
+
+apt   : managing package
+
+ps    : show current process list
+
+top   : show process and update in realtime
+
+kill  : navigating or ending
 	
 		Data workflow & Scripting
 #Redirection 
